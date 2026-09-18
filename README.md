@@ -96,9 +96,46 @@ These visualizations were used to better understand patterns, distributions, rel
 
 ## 📈 Power BI Dashboard
 
-The project also includes an interactive **Power BI dashboard** created to present key findings and insights from the analysis.
+The project includes an interactive **Power BI dashboard** designed to analyze technology preferences, future technology trends, and respondent demographics.
 
-The dashboard provides a visual way to explore the data and communicate important patterns and relationships to a broader audience.
+The dashboard is divided into three main sections:
+
+### 1. Current Technology Usage
+
+This dashboard explores the technologies currently being used by respondents.
+
+| Panel | Visualization        | Analysis                          |
+| ----- | -------------------- | --------------------------------- |
+| **1** | Stacked Bar Chart    | Top 10 Programming Languages Used |
+| **2** | Stacked Column Chart | Top 10 Databases Used             |
+| **3** | Word Cloud           | Top 10 Platforms Used             |
+| **4** | Scatter Bubble Chart | Top 10 Web Frameworks Used        |
+
+---
+
+### 2. Future Technology Trends
+
+This section examines the technologies respondents **want to use or learn in the future**.
+
+| Panel | Visualization        | Analysis                           |
+| ----- | -------------------- | ---------------------------------- |
+| **1** | Stacked Bar Chart    | Top 10 Languages Desired Next Year |
+| **2** | Stacked Column Chart | Top 10 Databases Desired Next Year |
+| **3** | Tree Map             | Top 10 Desired Platforms           |
+| **4** | Scatter Bubble Chart | Top 10 Desired Web Frameworks      |
+
+---
+
+### 3. Demographics
+
+This section provides an overview of the characteristics of the survey respondents.
+
+| Panel | Visualization     | Analysis                                               |
+| ----- | ----------------- | ------------------------------------------------------ |
+| **1** | Pie Chart         | Respondents by Age                                     |
+| **2** | Map Chart         | Respondent Count by Country                            |
+| **3** | Line/Bar Chart    | Respondent Distribution by Education Level             |
+| **4** | Stacked Bar Chart | Respondent Count by Age, Classified by Education Level |
 
 📊 **Dashboard:** `Power BI Dashboard`
 
@@ -113,9 +150,7 @@ The repository also contains supporting files used throughout the project, inclu
 * Pandas data exports
 * Jupyter Notebook files
 * Additional analysis files
-* Power BI dashboard files
 
-These files demonstrate the progression from **raw data → cleaned data → analysis → visualization → dashboard**.
 
 ---
 
